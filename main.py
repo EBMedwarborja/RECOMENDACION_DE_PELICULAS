@@ -14,7 +14,7 @@ import calendar
 app = FastAPI()
 
 # Cargar los datasets desde la ruta local
-ruta_base = r'C:\Users\edwar\Documents\PROYETO_DTA_01_SISTEMA_DE_RECOMENDACION\rpeliculas\DATASET'
+ruta_base = r'DATASET'
 
 movies_df = pd.read_csv(f'{ruta_base}\\movies_dataset.csv')
 cast_df = pd.read_csv(f'{ruta_base}\\cast_data.csv')
